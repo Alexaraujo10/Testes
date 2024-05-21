@@ -1,1 +1,37 @@
 @charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+header{
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+   
+   
+}
+
+nav > a.twitter{
+text-decoration: none;
+}
+
+nav > a.instagram{
+    text-decoration: none;
+}
+
+#redes{
+    padding-left: 10px;
+}

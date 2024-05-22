@@ -34,7 +34,12 @@ body{
     
   }
 
-  .sair{
+  #sair{
+    color: white;
+    text-decoration: none;
+  }
+
+   .sair{
     padding: 1px;
     border-radius: 5px;
     color: white;

@@ -7,9 +7,8 @@
 }
 
 body{
-
     font-family: Arial, Helvetica, sans-serif;
-    
+    background-color: rgba(137, 236, 236, 0.671);
     
 }
 
@@ -23,15 +22,24 @@ nav{
    
    
 }
+nav > a:hover{
+    background-color: rgba(0, 94, 131, 0.534);
+}
 
 nav > a.twitter{
 text-decoration: none;
+border-radius: 10px;
+transition-duration: 0.5s;
 }
 
 nav > a.instagram{
     text-decoration: none;
+    border-radius: 10px;
+transition-duration: 0.5s;
 }
 
 #redes{
+    font-size: 14px;
     padding-left: 10px;
+    padding-right: 10px;
 }

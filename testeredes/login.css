@@ -33,6 +33,16 @@ body{
     text-align: center;
     
   }
+
+  .sair{
+    padding: 1px;
+    border-radius: 5px;
+    color: white;
+    background-color: #007bff;
+    
+  }
+  
+
   
   .form-group {
     margin-bottom: 20px;
@@ -47,7 +57,7 @@ body{
     border-radius: 3px;
   }
   
-  button {
+  button.entrar {
     width: 100%;
     padding: 10px;
     background-color: #007bff;

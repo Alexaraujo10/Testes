@@ -53,6 +53,11 @@ body{
     margin-bottom: 20px;
   }
   
+  #horas{
+    color: black;
+    display: flex;
+    justify-content: right;
+  }
   
   input[type="text"],
   input[type="password"] {

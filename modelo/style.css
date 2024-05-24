@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: lightsteelblue;
+
+}
+
+main{
+    background-color: white;
+    
+}

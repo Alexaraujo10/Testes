@@ -1,4 +1,4 @@
-
+/*
 //executa o laço enquanto for menor que 6
 var  c=1
 do{
@@ -12,12 +12,12 @@ if(c >= 6){
 }else{
 
 }  
+*/
 
 
-/*
-for(c = 1; c <=6; c++){
+for(c = 1; c <=8; c++){
     console.log(c)
     if(c >= 6){
     console.log('Você atingiu o limite')
     }
-}*/
+ }

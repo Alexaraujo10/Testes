@@ -2,6 +2,19 @@
 
 
 body{
-    background-color: aqua;
+    background-color: lightcyan;
+}
+
+section{
+    margin: auto;
+    width: 600px;
+    min-width: 300px;
+    max-height: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#perg{
+    margin-left: 5px;
 }
 

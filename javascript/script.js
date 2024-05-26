@@ -7,14 +7,18 @@ calcular.addEventListener('click', function(){
 
     var nota  = parseFloat(document.getElementById('nota').value)
 
-    if(nota >= 6){
+    if(nota >= 5){
         res.innerHTML = 'Você tem uma boa nota'
-    } else{
-        res.innerHTML = 'Você consegue resultados melhores'
+    } 
+    else{
+        res.innerHTML = 'Você consegue Notas melhores'
     }
-   
-
+    
+    
+    
 })
+    
+
 
 
 

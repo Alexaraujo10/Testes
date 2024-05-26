@@ -4,12 +4,13 @@ var calcular = document.getElementById('calcular')
 var res = document.getElementById('res')
 
 calcular.addEventListener('click', function(){
-
+//digite a nota
     var nota  = parseFloat(document.getElementById('nota').value)
-
+//se a nota for acima  de 5
     if(nota >= 5){
         res.innerHTML = 'Você tem uma boa nota'
     } 
+    //se a nota for abaixo de 4
     else{
         res.innerHTML = 'Você consegue Notas melhores'
     }

@@ -1,4 +1,46 @@
 
+
+var calcular = document.getElementById('calcular')
+var res = document.getElementById('res')
+
+calcular.addEventListener('click', function(){
+
+    var nota  = parseFloat(document.getElementById('nota').value)
+
+    if(nota >= 6){
+        res.innerHTML = 'Você tem uma boa nota'
+    } else{
+        res.innerHTML = 'Você consegue resultados melhores'
+    }
+   
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 //executa o laço enquanto for menor que 6
 var  c=1
 do{
@@ -15,7 +57,7 @@ if (c === 7){
 }else{
  console.log('Você passou do limite')
 }  
-    
+    */
 
 
 /*

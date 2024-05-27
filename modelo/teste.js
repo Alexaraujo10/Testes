@@ -17,8 +17,8 @@ if(velocidade <= 0){
     } else if (velocidade >= 91 && velocidade <= 120){
         res.innerHTML = 'Ta sem freio ?'
     } else if (velocidade >= 121 && velocidade <= 300){
-        res.innerHTML = 'Calma ayrton senna!'
+        res.innerHTML = 'Tutututu du Max Verstappen'
     } else if(velocidade >= 301){
-        res.innerHTML  = 'Ta num foguete ?, ou o freio quebrou e o acelerador travou ? '
+        res.innerHTML  = 'Ta num foguete ?'
     }
 }   

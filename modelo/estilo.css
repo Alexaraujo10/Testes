@@ -1,4 +1,6 @@
-
+*{
+    margin: auto;
+}
 body{
  background-color: rgba(7, 3, 235, 0.658);
  font: normal 15pt Arial;

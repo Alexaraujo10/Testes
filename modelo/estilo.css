@@ -24,3 +24,8 @@ color: white;
 text-align: center;
 font-style: italic;
 }
+
+img{
+    width: 150px;
+    padding-left: 10px;
+}

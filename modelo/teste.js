@@ -3,13 +3,15 @@ function verificar(){
     let res = document.getElementById('res')
     let speed  = Number(velocidade)
     let img = document.createElement('img')
+   let  audio =  document.createElement('audio')
     
-
+res.innerHTML = ''
 
 if(velocidade <= 0){
   res.innerHTML = 'Se ta parado irmão! se liga'
   img.setAttribute('src','ta parado.jpg')
   img.setAttribute('id', 'foto')
+  audio.setAttribute('id','audio')
 } else if (velocidade >= 1 && velocidade <= 29){
         res.innerHTML = 'Você esta aprendendo ou tem entre 60 a 80 anos'
         img.setAttribute('src','solta a embreagem.jpg')
@@ -27,10 +29,16 @@ if(velocidade <= 0){
 
     } else if (velocidade >= 121 && velocidade <= 300){
         res.innerHTML = 'Tutututu du Max Verstappen'
-        img.setAttribute('src','tutututu du max verstappen.jpg')
+        img.setAttribute('src','tutututu du max verstappen.jpg') 
+        audio.setAttribute('src', 'tu-tu-tu-du-max-verstappen.mp3') 
+
     } else if(velocidade >= 301){
-        res.innerHTML  = 'Ta num foguete ?'
-        img.setAttribute('src','eu sou a velocidade,jpg')
+        res.innerHTML  = 'Eu sou a Velocidade'
+        img.setAttribute('src','mcqueen.jpg')
+        audio.setAttribute('src', 'eu sou a velo.mp3')
     }
-    res.appendChild(img);
+    res.appendChild(img)
+    audio.setAttribute('autoplay','true')
+    res.appendChild(audio)
+    
 }   

@@ -8,6 +8,6 @@
 
  <html>
  
- <a href="https://alexaraujo10.github.io/Testes/modelo/modelo05/landingpage.html">Landing Page</a>
+ <a href="https://alexaraujo10.github.io/Testes/modelo05/landingpage.html">Landing Page</a>
  
  </html>

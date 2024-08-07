@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: rgb(221, 248, 248);
+}
+
+
+header > h1{
+    margin: 0px;
+
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 0px ;
+    
+}
+
+div{
+    padding: 10px;
+}
+
+ #botao{
+border-radius: 2.5px;
+color: white;
+background-color: black;
+}
+
+#res > label{
+    padding-right: 5px;
+}

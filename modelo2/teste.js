@@ -12,7 +12,7 @@ function calcular(){
     if(total >= 5){
         res.innerHTML = 'Aprovado'
     } else{
-        res.innerHTML = 'Reprovado'
+        res.innerHTML = 'Reprovado  Media mininima para passar é 5'
     }
 
 }
